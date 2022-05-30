@@ -1,0 +1,102 @@
+body{
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+   
+
+.text-warning {
+    color: red;
+    font-weight: bold;
+    animation-name: fadout_text;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+@keyframes fadout_text {
+    from {
+        color: red;
+    }
+
+    to {
+        color: rbga(0, 0, 0, 0);
+    }
+}
+
+ul {
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(240, 248, 255, 0.8);
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+li {
+    float: left;
+}
+
+li {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+}
+
+li.l1 {
+    overflow:hidden;
+    color: aliceblue;
+    background-color: blue;
+}
+
+.l1:hover,
+.l1:hover>* {
+    background-color: aliceblue;
+    color: black;
+}
+
+li:hover,
+li:hover>* {
+    color: antiquewhite;
+    background-color: blue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.user_creds {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_creds>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    background-color: white;
+    z-index: 1;
+}
+
+.center-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+p{
+    overflow: auto;
+}
+

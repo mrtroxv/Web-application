@@ -1,0 +1,44 @@
+body{
+    background-image: url(./../images/ahmad.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: monospace;
+}
+
+div.tit{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: rgb(240, 248, 255,0.7);
+    width: 350px;
+    padding-bottom: 10px;
+    border: solid 0.5px white;
+    border-radius: 20px;
+}
+
+label{
+    margin-left: 0px;
+}
+
+input{
+    width: 340px;
+    border: solid 1px rgb(245, 222, 179,0.7);
+    border-radius: 25px;
+    height: 35px;
+
+}
+.l1{
+    font-size: 15px;
+    margin: 15px;
+}
+
+.in1{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.l1:hover,
+.l1:hover>* {
+
+}
